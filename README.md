@@ -41,6 +41,7 @@ unzip datasets.zip -d ./
 unzip weights.zip -d ./
 unzip deps.zip -d ./shape_diffusion
 ```
+
 ### 4. Run
 ```
 cd shape_diffusion
@@ -65,4 +66,5 @@ Please cite our paper if you use this repository:
 We borrowed part of the codes from the following projects:  
 
 https://github.com/zycliao/skeleton-free-pose-transfer
+
 https://github.com/GuyTevet/motion-diffusion-model
