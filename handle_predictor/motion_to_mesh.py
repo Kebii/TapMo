@@ -183,7 +183,7 @@ def get_parser():
     parser = argparse.ArgumentParser(description='Motion to mesh sequence')
     parser.add_argument(
         '--motion_path',
-        default='../shape_diffusion/save/motion_0.npz',
+        default='./demo/motion/motion_0.npz',
         help='path to the generated motion file',
     )
     parser.add_argument(

@@ -105,7 +105,7 @@ def add_data_options(parser):
                        help="If empty, will use defaults according to the specified dataset.")
     group.add_argument("--char_feature_path", default="../demo/shape_features/001.npy", type=str,
                        help="")
-    group.add_argument("--save_path", default="./save/motion_", type=str,
+    group.add_argument("--save_path", default="../demo/motion/motion_", type=str,
                        help="")
 
 
