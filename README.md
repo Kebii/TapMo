@@ -27,7 +27,7 @@ conda create python=3.8 --name tapmo
 conda activate tapmo
 ```
 
-### 2. Install dependencies (Anaconda installation is recommended)
+### 2. Install dependencies
 * Install the packages in `requirements.txt` and install [PyTorch 2.1.0](https://pytorch.org/)
 ```
 pip install -r requirements.txt
