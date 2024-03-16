@@ -1,0 +1,14 @@
+{
+    "is_elasticity": false,
+    "hyper_parameters": {
+        "task_flag": "test_Mesh100_10disc10lr_01gen_1e_3modlexp3_disv_1e_4reg_4_8_80k"
+    },
+    "GPUName": "V100",
+    "task_flag": "test_Mesh100_10disc10lr_01gen_1e_3modlexp3_disv_1e_4reg_4_8_80k",
+    "model_local_file_path": "/apdcephfs/private_jiaxuzhang_cq/code/start_mdm",
+    "Token": "XYCxU34-a2F_Fg62F6pgdw", 
+    "business_flag": "TEG_AILab_CVC_chongqing",
+    "host_gpu_num": 1,
+    "image_full_name": "mirrors.tencent.com/jiaxuzhang/mdm-python3.8-cuda11.1-cudnn8.0.5-pytorch1.10.0:v4",
+    "host_num": 1
+}

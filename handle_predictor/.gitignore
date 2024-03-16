@@ -1,0 +1,7 @@
+.idea/
+__pycache__/
+demo/
+build/
+mesh_core_cython.cpp
+*.so
+*.pyd
