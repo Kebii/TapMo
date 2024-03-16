@@ -44,7 +44,7 @@ unzip deps.zip -d ./shape_diffusion
 ### 4. Run
 ```
 cd shape_diffusion
-python3 -m sample.generate_handle_motion --model_path ../weights/diffusion_model_latest.pt --arch trans_dec --emb_trans_dec False --dataset t6d_mixrig --save_path ../demo/motion/motion_ --text_prompt "walk forward and turn right."
+python3 -m sample.generate_handle_motion --model_path ../weights/diffusion_model_latest.pt --arch trans_dec --emb_trans_dec False --dataset t6d_mixrig --char_feature_path ../demo/shape_features/001.npy --save_path ../demo/motion/motion_ --text_prompt "walk forward and turn right."
 
 cd handle_predictor
 python -m motion_to_mesh --motion_path ../demo/motion/motion_0.npz --tgt_mesh_path ../demo/mesh/001.obj --save_dir ../demo/results/001 --ckpt_path ../weights/handle_predictor_latest.pth
