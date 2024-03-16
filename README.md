@@ -23,7 +23,7 @@ An overview of the TapMo pipeline. Given a non-rigged mesh and a motion descript
 ## Quick Start
 ### 1. Conda environment
 ```
-conda create python=3.9 --name tapmo
+conda create python=3.8 --name tapmo
 conda activate tapmo
 ```
 
