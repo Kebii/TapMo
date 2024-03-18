@@ -4,6 +4,7 @@ This is the code for [TapMo: Shape-aware Motion Generation of Skeleton-free Char
 
 
 ![](https://github.com/Kebii/TapMo/blob/master/gifs/demo1.gif)
+
 TapMo is a text-based animation pipeline for generating motion in a wide variety of skeleton-free characters.
 
 - [x] Inference code
