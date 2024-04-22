@@ -886,7 +886,7 @@ class HumanML3D_T6D_MixRig(data.Dataset):
             self.std_for_eval = np.load(pjoin(datapath, 'Std_30p_6d.npy'))[None,]
             self.std[self.std < 1e-5] = 1
 
-        self.split_file = pjoin(opt.data_root, f'{split}.txt')
+        self.split_file = pjoin(datapath, f'{split}.txt')
         self.w_vectorizer = WordVectorizer(pjoin(abs_base_path, 'glove'), 'our_vab')
         self.t2m_dataset = Text2MotionDatasetTrans(
             self.opt,
